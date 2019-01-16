@@ -18,6 +18,6 @@
     "rollup": "^1.1.0"
   },
   "dependencies": {
-    "@chancedickson/easy-errors": "0.0.1"
+    "@chancedickson/easy-errors": "0.1.0"
   }
 }
