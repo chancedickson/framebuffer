@@ -1,0 +1,23 @@
+{
+  "name": "@chancedickson/framebuffer",
+  "version": "0.0.1",
+  "description": "A library for handling length-prefixed frames.",
+  "main": "cjs/index.js",
+  "module": "src/index.js",
+  "author": "Chance Dickson <me@chancedickson.com>",
+  "license": "BSD-3-Clause",
+  "repository": "github:chancedickson/framebuffer",
+  "scripts": {
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "rollup": "^1.1.0"
+  },
+  "dependencies": {
+    "@chancedickson/easy-errors": "0.0.1"
+  }
+}
